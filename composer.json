@@ -1,0 +1,20 @@
+{
+    "name": "dubpub/viewmodel1",
+    "description": "",
+    "authors": [
+        {
+            "name": "Volynov Andrey",
+            "email": "dubpubz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Dubpub\\Viewmodel1": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
