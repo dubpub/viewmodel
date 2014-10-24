@@ -1,5 +1,5 @@
 {
-    "name": "dubpub/viewmodel1",
+    "name": "dubpub/viewmodel",
     "description": "",
     "authors": [
         {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Dubpub\\Viewmodel1": "src/"
+            "Dubpub\\ViewModel": "src/"
         }
     },
     "minimum-stability": "stable"

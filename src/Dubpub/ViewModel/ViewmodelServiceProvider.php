@@ -1,8 +1,8 @@
-<?php namespace Dubpub\Viewmodel1;
+<?php namespace Dubpub\ViewModel;
 
 use Illuminate\Support\ServiceProvider;
 
-class Viewmodel1ServiceProvider extends ServiceProvider {
+class ViewModelServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
