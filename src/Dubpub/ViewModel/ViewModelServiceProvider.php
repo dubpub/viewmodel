@@ -13,8 +13,6 @@
      */
     class ViewModelServiceProvider extends GhostService
     {
-
-
         /**
          * Get the services provided by the provider.
          *
