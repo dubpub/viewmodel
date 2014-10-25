@@ -1,5 +1,4 @@
-<?php
-    namespace Dubpub\WorkFlow\ViewModel;
+<?php namespace Dubpub\ViewModel;
 
     use Dubpub\LaravelUtils\GhostService\GhostService;
     use Dubpub\ViewModel\Interfaces\IFileViewModel;
@@ -8,6 +7,10 @@
 
     use Input;
 
+    /**
+     * Class ViewModelServiceProvider
+     * @package Dubpub\ViewModel
+     */
     class ViewModelServiceProvider extends GhostService
     {
 
@@ -22,17 +25,11 @@
             return array('dubpub.viewmodel');
         }
 
-        public function launching()
-        {
-
-        }
+        public function launching() { }
 
         public function registering()
         {
-            $this->app->bind(
-                'Dubpub\ViewModel\Interfaces\IRequestBag',
-                'Dubpub\ViewModel\RequestBag'
-            );
+            $this->app->bind('Dubpub\ViewModel\Interfaces\IRequestBag', 'Dubpub\ViewModel\RequestBag');
 
             $this->app->resolvingAny(function($resolved, $application = null) {
                 if ($resolved instanceof IFileViewModel) {

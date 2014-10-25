@@ -1,8 +1,9 @@
 <?php
-    namespace Dubpub\WorkFlow\ViewModel;
+    namespace Dubpub\ViewModel;
 
     use ArrayAccess;
-    use Dubpub\WorkFlow\ViewModel\Interfaces\IRequestBag;
+
+    use Dubpub\ViewModel\Interfaces\IRequestBag;
     use Iterator;
 
     class RequestBag extends BaseViewModel implements IRequestBag, ArrayAccess, Iterator

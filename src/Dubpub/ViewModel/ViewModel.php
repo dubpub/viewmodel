@@ -1,6 +1,5 @@
-<?php namespace Dubpub\WorkFlow\ViewModel;
+<?php namespace Dubpub\ViewModel;
 
-    use Dubpub\ViewModel\BaseViewModel;
     use Dubpub\ViewModel\Interfaces\IValidatableViewModel;
 
     use Illuminate\Validation\Validator;

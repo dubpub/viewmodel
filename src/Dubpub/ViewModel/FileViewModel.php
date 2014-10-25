@@ -1,4 +1,4 @@
-<?php namespace Dubpub\WorkFlow\ViewModel;
+<?php namespace Dubpub\ViewModel;
 
     use Dubpub\ViewModel\Interfaces\IFileViewModel;
     use Dubpub\ViewModel\Interfaces\IViewModel;
@@ -6,6 +6,7 @@
     use Exception,
         ReflectionClass,
         ReflectionProperty;
+
     use Symfony\Component\HttpFoundation\File\UploadedFile;
 
     /**

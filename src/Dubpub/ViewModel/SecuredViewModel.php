@@ -1,8 +1,3 @@
-<?php
-    namespace Dubpub\WorkFlow\ViewModel;
+<?php namespace Dubpub\ViewModel;
 
-
-    abstract class SecuredViewModel extends ViewModel
-    {
-
-    }
+    abstract class SecuredViewModel extends ViewModel { }

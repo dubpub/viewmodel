@@ -5,8 +5,6 @@
     /**
      * ViewModel approach for files.
      *
-     * Class IFileViewModel
-     * @package Application\Utils\ViewModel\Interfaces
      */
     interface IFileViewModel extends IViewModel
     {

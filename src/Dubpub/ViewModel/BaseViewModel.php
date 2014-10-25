@@ -1,6 +1,5 @@
 <?php namespace Dubpub\ViewModel;
 
-
     use Dubpub\ViewModel\Interfaces\IViewModel;
     use Illuminate\Support\Collection;
 
