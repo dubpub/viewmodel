@@ -12,6 +12,10 @@
         "illuminate/support": "4.1.*",
         "dubpub/laravel-utils": "dev-master"
     },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/dubpub/laravel-utils.git"
+    }],
     "autoload": {
         "psr-0": {
             "Dubpub\\ViewModel": "src/"
