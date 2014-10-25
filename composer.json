@@ -10,16 +10,12 @@
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "4.1.*",
-        "dubpub/laravel-utils": "@dev"
+        "dubpub/laravel-utils": "dev-master"
     },
     "autoload": {
         "psr-0": {
             "Dubpub\\ViewModel": "src/"
         }
     },
-    "repositories": [{
-         "type": "vcs",
-         "url": "git@127.0.0.1:laravel-utils.git"
-     }],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
