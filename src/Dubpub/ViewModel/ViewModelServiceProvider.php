@@ -10,8 +10,6 @@
 
     class ViewModelServiceProvider extends GhostService
     {
-
-
         /**
          * Get the services provided by the provider.
          *
@@ -22,17 +20,11 @@
             return array('dubpub.viewmodel');
         }
 
-        public function launching()
-        {
-
-        }
+        public function launching() { }
 
         public function registering()
         {
-            $this->app->bind(
-                'Dubpub\ViewModel\Interfaces\IRequestBag',
-                'Dubpub\ViewModel\RequestBag'
-            );
+            $this->app->bind('Dubpub\ViewModel\Interfaces\IRequestBag', 'Dubpub\ViewModel\RequestBag');
 
             $this->app->resolvingAny(function($resolved, $application = null) {
                 if ($resolved instanceof IFileViewModel) {
