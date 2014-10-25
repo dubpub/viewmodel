@@ -1,6 +1,7 @@
 {
     "name": "dubpub/viewmodel",
     "description": "ViewModel approach for laravel 4.(=>1)",
+    "version": "1.0.0-dev",
     "authors": [
         {
             "name": "Volynov Andrey",
