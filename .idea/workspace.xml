@@ -57,7 +57,7 @@
       <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="32" selection-start="497" selection-end="497" vertical-scroll-proportion="0.592068" vertical-offset="151" max-vertical-offset="504">
+            <state line="3" column="21" selection-start="116" selection-end="116" vertical-scroll-proportion="-0.27478755" vertical-offset="151" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
@@ -247,7 +247,11 @@
       <created>1414275298182</created>
       <updated>1414275298182</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="composer.json updates">
+      <created>1414275907545</created>
+      <updated>1414275907545</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -290,9 +294,9 @@
     </option>
     <MESSAGE value="Wrong name changes" />
     <MESSAGE value="laravel-utils dependency added; &#10;ViewModelServiceProvider now extends GhostService" />
-    <MESSAGE value="composer.json updates" />
     <MESSAGE value="composer.json updates - version added" />
-    <option name="LAST_COMMIT_MESSAGE" value="composer.json updates - version added" />
+    <MESSAGE value="composer.json updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="composer.json updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -465,7 +469,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="497" selection-end="497" vertical-scroll-proportion="0.592068" vertical-offset="151" max-vertical-offset="504">
+        <state line="3" column="21" selection-start="116" selection-end="116" vertical-scroll-proportion="-0.27478755" vertical-offset="151" max-vertical-offset="504">
           <folding />
         </state>
       </provider>
